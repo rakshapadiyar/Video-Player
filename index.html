@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Beach</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="body">
+        <p> Video Courtesy :  Itai Perelman Nasich on Pexels.com <a href="https://www.pexels.com/video/time-lapse-video-of-people-walking-on-beach-during-sunset-5659510/" >Check here</a></p>
+        <button onclick="pausePlay()" id="play_pause">
+            <img id="image" src="images/pause.png" height="40px" width="50px">
+            <p id="text">Pause</p>
+        </button>
+        <video id="video" width=100% height="100%" autoplay>
+            <source src="videos/beach.mp4" type="video/mp4">
+             Video not supported.
+        </video>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

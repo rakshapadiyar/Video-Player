@@ -1,0 +1,17 @@
+#play_pause
+{
+    height: 50px;
+    width: 120px;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+#body
+{
+    border: 2px dotted rgb(54, 138, 186);
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+
+}
